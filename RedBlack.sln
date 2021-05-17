@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedBlack", "RedBlack.csproj", "{7DBF2251-3AF6-4E18-9208-F627A7A7E13C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedBlack", "RedBlack\RedBlack.csproj", "{7DBF2251-3AF6-4E18-9208-F627A7A7E13C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedBlackTests", "RedBlackTests\RedBlackTests.csproj", "{42CF1BAC-82F6-4015-9F5C-B1DE4BB07184}"
 EndProject

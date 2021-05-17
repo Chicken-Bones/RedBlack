@@ -217,7 +217,7 @@ namespace RedBlackTests
 		[TestMethod]
 		public void TestPerformance() {
 			var rand = new Random(0);
-			IList<object> list = new UnorderedRedBlackList<object> { Enumerable.Repeat<object>(null, 10000) };
+			IList<object> list = new UnorderedRedBlackList<object> { Enumerable.Repeat<object>(null, 100000) };
 			var alist = new List<object>();
 			alist.AddRange(list);
 
@@ -238,6 +238,7 @@ namespace RedBlackTests
 			}
 			long t1 = sw.ElapsedMilliseconds;
 
+			rand = new Random(0);
 			list = alist;
 			sw.Restart();
 			for (int i = 0; i < 100; i++) {

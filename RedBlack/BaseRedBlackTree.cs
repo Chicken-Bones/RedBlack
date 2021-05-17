@@ -164,6 +164,7 @@ namespace RedBlack
 		public void Clear() {
 			Root = null;
 			Count = 0;
+			_version++;
 		}
 
 		public virtual bool Contains(Node item) => throw new NotImplementedException("Contains(Node) called but Node is not comparable. Try ComparableRedBlackTree");
