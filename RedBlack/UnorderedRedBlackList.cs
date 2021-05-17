@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace RedBlack
+namespace CodeChicken.RedBlack
 {
 	/// <summary>
 	/// Example composition implementation of IList<T> with Log(n) Insert(index) and Remove(index)

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace RedBlack
+namespace CodeChicken.RedBlack
 {
 	public abstract class RedBlackNode<Node> where Node : RedBlackNode<Node>
 	{

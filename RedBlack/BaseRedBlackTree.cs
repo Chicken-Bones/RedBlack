@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace RedBlack
+namespace CodeChicken.RedBlack
 {
 	public class BaseRedBlackTree<Node> : ICollection<Node> where Node : RedBlackNode<Node>
 	{

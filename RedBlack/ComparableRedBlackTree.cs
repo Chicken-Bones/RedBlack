@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace RedBlack
+namespace CodeChicken.RedBlack
 {
 	public class ComparableRedBlackTree<Node> : BaseRedBlackTree<Node> where Node : RedBlackNode<Node>, IComparable<Node>
 	{

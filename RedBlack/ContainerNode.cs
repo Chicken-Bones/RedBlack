@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RedBlack
+namespace CodeChicken.RedBlack
 {
 	public class ContainerNode<T, Node> : RedBlackNode<Node>, IComparable<Node>
 		where T : IComparable<T> where Node : ContainerNode<T, Node>

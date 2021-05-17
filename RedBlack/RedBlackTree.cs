@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RedBlack
+namespace CodeChicken.RedBlack
 {
 	/// <summary>
 	/// Concrete implementation of SimpleRedBlackTree. Just specifies the type of ContainerNode

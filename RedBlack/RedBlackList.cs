@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace RedBlack
+namespace CodeChicken.RedBlack
 {
 	/// <summary>
 	/// Helper methods for implementing list-like variants of RedBlackTree

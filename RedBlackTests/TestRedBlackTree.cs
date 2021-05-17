@@ -4,9 +4,8 @@ using System.Diagnostics;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.VisualStudio.TestTools.UnitTesting.Logging;
-using RedBlack;
 
-namespace RedBlackTests
+namespace CodeChicken.RedBlack.Tests
 {
 	[TestClass]
 	public class TestRedBlackTree

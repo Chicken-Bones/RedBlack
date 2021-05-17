@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace RedBlack
+namespace CodeChicken.RedBlack
 {
 	/// <summary>
 	/// Base type for RedBlackTrees with nodes that contain a single value
