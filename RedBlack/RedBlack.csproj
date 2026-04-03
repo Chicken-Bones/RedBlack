@@ -6,11 +6,16 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Chicken-Bones</Authors>
     <PackageProjectUrl>https://github.com/Chicken-Bones/RedBlack</PackageProjectUrl>
-	<PackageTags>collections</PackageTags>
+    <PackageTags>collections</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
